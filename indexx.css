@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 60px 0;
+}
+.linkler a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 40px;
+    text-align: center;
+}
+.intro-left-side {
+    padding: 134px 60px 0;
+    min-width: 700px;
+}
+.intro-left-side h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #000;
+}
+.intro-left-side h1 span {
+    color: #FF8A56;
+    ;
+}
+.intro-left-side p {
+    color: #666;
+    font-size: 22px;
+    padding-top: 34px ;
+
+}
+
+.intro-right-side {
+    padding: 82px 60px 0;
+}
+.intro-right-side img {
+    width: 100%;
+    min-width: 500px;
+
+}
+@media(min-width:768px) and (max-width:1200px){
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .linkler a {
+        padding-left: 10px;
+    }
+}
+.fa-bars {
+    display: none !important;
+    font-size: 30px;
+    padding-top: 10px;
+}
+@media(max-width:1400px) {
+    .intro-left-side h1  {
+        font-size: 3.5rem !important;
+}
+.intro-left-side p {
+    font-size: 17px;
+}
+.intro-right-side img {
+    min-width: 400px;
+}   
+}
+@media(max-width:768px) {
+    .intro-left-side {
+        min-width: 400px !important;
+        text-align: center !important;
+
+    }
+    .intro-left-side h1 {
+        font-size: 2.5rem !important;
+        text-align: center !important;
+    }
+    .intro-right-side img {
+        display: block;
+        margin: 0 auto;
+        min-width: 400px;
+    }
+    .linkler {
+        display: none !important;
+    } 
+    .fa-bars {
+        display: flex !important;
+    }
+
+}
+.book-a-call{
+    padding-top: 38px;
+    
+}
+button {
+    background-color: #000;
+    color: #fff;
+   padding:10px 20px;
+}
+.book-a-call a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 40px;
+}
+
+.book-a-call img {
+    padding-left: 14px;
+}
+
+.trusted-by {
+    text-align: center;
+}
